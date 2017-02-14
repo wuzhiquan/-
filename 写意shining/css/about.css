@@ -1,0 +1,37 @@
+.about_con{
+	background-color: #F5F5F5;
+	margin-top: 3px;
+	width: 100%;
+}
+.about_pic{
+	margin: 0 auto;
+	width: 18%;
+	padding-top: 3em;
+}
+.about_pic img{
+	width: 100%;
+}
+.about_text{
+	width: 55%;
+	margin: 0 auto;
+	text-align: left;
+	text-indent: 2em;
+}
+.about_text p{
+	line-height: 2em;
+	margin: 0px;
+    font-family: arial;
+    word-break: break-word;
+    font-weight: lighter;
+    color: #000;
+    text-indent: 2em;
+    padding: 0 0 2em;
+}
+@media screen and (max-width: 600px) {
+	.about_pic{
+		width: 50%;
+	}
+	.about_text{
+		width: 90%;
+	}
+}

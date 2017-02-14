@@ -1,0 +1,60 @@
+.team{
+	width: 100%;
+	min-height: 400px;
+	padding: 0 1% 0 2%;
+	/*background: yellow;*/
+}
+.team_p{
+	width: 100%;
+	text-align: left;
+	padding: 25px 0 10px 0;
+	/*background: #ccc; */
+	margin: 0;
+	font-size: 14px;
+	color: #A88655;
+}
+.team_peo{
+	width: 100%;
+	min-height: 450px;
+	/*background: green;*/
+	overflow: hidden;
+}
+.peo_div{
+	width: 24%;
+	min-height: 450px;
+	margin-right: 1%;
+	float: left;
+	/*background: blue;*/
+	margin-top: 10px;
+}
+.peo_div img{
+	width: 100%;
+	margin-bottom: 15px;
+}
+@media screen and (max-width: 991px) and (min-width: 501px){
+	.peo_div{
+		width: 49%;
+	}
+}
+@media (max-width: 500px){
+	.peo_div{
+		width: 99%;
+	}
+}
+.peo_div span{
+	color:#A88655;
+	/*margin-left: 5%;*/
+}
+.peo_div ul{
+	color: #A88655;
+	font-size: 12px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-top: 10px;
+	/*margin-left: 5%;*/
+}
+.peo_div em{
+	font-style: normal;
+	margin-left: 15px;
+}

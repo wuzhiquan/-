@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>英菲尼迪</title>
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/swiper.min.css"/>
+	<link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/canvasloading.css">
+</head>
+<body>
+	<div id="cover">
+        <canvas id="mycanvas" width="200px" height="200px"></canvas>
+    </div>
+	<img src="img/logo.png" class="logo"/>
+	<img src="img/music.png" class="music music_move"/>
+	<audio src="sound/music.mp3" autoplay loop></audio>
+	<div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide page_1">
+            	<img src="img/1/budeng.png" class="budeng ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="1.2s"/>
+            	<img src="img/1/tansuo.png" class="tansuo ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1.2s"/>
+            </div>
+            <div class="swiper-slide page_2">
+                <img src="img/2/car2.png" class="car2 ani" swiper-animate-effect="slideInLeft" swiper-animate-duration="1.2s">
+                <img src="img/2/chudong.png" class="chudong ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.2s">
+                <span class="span_1 ani"  swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="1.2s">加速油门跑遍更多的地方</span>
+                <span class="span_2 ani"  swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="2s">穿过峡谷途径海洋，融入漫天繁星里</span>
+                <span class="span_3 ani"  swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="2.8s">追逐瞬间的彩虹，感知多变的云层</span>
+                <span class="span_4 ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.2s">，在瞬息间</span>
+            </div>
+            <div class="swiper-slide page_3">
+                <img src="img/3/jifa.png" class="jifa ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.8s" swiper-animate-delay="3.4s">
+                <span class="span_1 ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.2s">偶然的相遇不是偶然</span>
+                <span class="span_2 ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.8s" swiper-animate-delay="1s">每一个独特都有另外一个独特在等待</span>
+                <span class="span_3 ani"  swiper-animate-effect="bounceInUp" swiper-animate-duration="0.8s" swiper-animate-delay="1.8s">谁可以和你对一下密码</span>
+                <span class="span_4 ani"  swiper-animate-effect="bounceInUp" swiper-animate-duration="0.8s" swiper-animate-delay="2.6s">即刻彼此开启</span>
+                <span class="span_5 ani"  swiper-animate-effect="bounceInUp" swiper-animate-duration="0.8s" swiper-animate-delay="4.4s">，无尽想象</span>
+            </div>
+            <div class="swiper-slide page_4">
+                <img src="img/4/car4.png" class="car4 ani"  swiper-animate-effect="slideInRight" swiper-animate-duration="1.2s">
+                <img src="img/4/huanxing.png" class="huanxing ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.2s">
+                <span class="span_3 ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.2s">，每一个感官</span>
+                <span class="span_1 ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="1.2s">没有说走就走的勇气，哪来不期而遇的奇迹</span>
+                <span class="span_2 ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="2s">追随心中所爱，哪里都是最好的风景</span>
+            </div>
+            <div class="swiper-slide page_5">
+                <img src="img/5/huisa.png" class="huisa ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.2s">
+                <span class="span_5 ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.8s" swiper-animate-delay="1.2s">，自由心绪</span>
+                <span class="span_1 ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.8s" swiper-animate-delay="2s">会孤独会寂寞会彷徨无助</span>
+                <span class="span_2 ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.8s" swiper-animate-delay="2.8s">还得坚强</span>
+                <span class="span_3 ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.8s" swiper-animate-delay="3.6s">会叛逆会反常会历经艰难</span>
+                <span class="span_4 ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.8s" swiper-animate-delay="4.4s">还得勇敢</span>
+            </div>
+            <div class="swiper-slide page_6">
+                <img src="img/6/zhiling.png" class="zhiling ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.2s">
+                <span class="span_1 ani"  swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="1.2s">一个眼神间，一个笑容里，信任与默契</span>
+                <span class="span_2 ani"  swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="2s">无论伟大还是渺小、出众或是平庸</span>
+                <span class="span_3 ani"  swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="2.8s">坚信你的与众不同，彼此相依</span>
+                <span class="span_4 ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.2s">，未来之路</span>
+            </div>
+            <div class="swiper-slide page_7">
+                <img src="img/7/xiangyue.png" class="xiangyue ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.2s">
+                <span class="span_3 ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.2s">，无声无息</span>
+                <span class="span_1 ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.8s" swiper-animate-delay="1.2s">身处异景或只是短暂的停留</span>
+                <span class="span_2 ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.8s" swiper-animate-delay="2s">那一刻依然能够体会生活独有的乐趣</span>
+            </div>
+            <div class="swiper-slide page_8">
+                <img src="img/8/fenxiang.png" class="fenxiang ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.2s">
+                <span class="span_1 ani"  swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="1.2s">可以和你一起进入生命的真相</span>
+                <span class="span_2 ani"  swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="2s">一起品味苦涩与辛酸、一起感受欢喜</span>
+                <span class="span_3 ani"  swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="2.8s">坚定的相互维护，欣赏彼此的独特</span>
+                <span class="span_4 ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.2s">，无所不在</span>
+            </div>
+            <div class="swiper-slide page_9">
+                <span class="span_1 ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.2s">探索不期而遇的奇迹，勇敢追随心中所爱</span>
+                <img src="img/9/ganai.png" class="ganai ani"  swiper-animate-effect="bounceInUp" swiper-animate-duration="0.8s" swiper-animate-delay="1s">
+                <span class="span_2 ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.8s" swiper-animate-delay="2s">，一路前行</span>
+            </div>
+            <div class="swiper-slide page_10">
+                <img src="img/10/car10.png" class="car10 ani"  swiper-animate-effect="pulse" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
+                <img src="img/10/h1.png" class="h1 ani" swiper-animate-effect="zoomInRight" swiper-animate-duration="0.8s" swiper-animate-delay="0.2s" >
+                <ul>
+                    <li class="li_1 ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="1s">独具一格的流线型SUV设计理念</li>
+                    <li class="li_2 ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="1.8s">同级唯一全系统标配V6自然吸气发动机</li>
+                    <li class="li_3 ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="2.6s">全系标配自能四驱系统</li>
+                    <li class="li_4 ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="3.2s">2800mm同级最长轴距</li>
+                    <li class="li_5 ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="4s">同级领先的安全科技——全景式监控影像系统AVM</li>
+                    <li class="li_6 ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.8s" swiper-animate-delay="4.8s">4年/10万公里免费保修包养服务</li>
+                </ul>
+            </div>
+            <div class="swiper-slide page_11">
+                <img src="img/11/share.png" class="share">
+                <span>分享给好友</span>
+                <h3>周迅夫妇联袂演绎微电影《完美出逃》</h3>
+                <div class="cover_video">
+                    <img src="img/11/btn.png" class="btn ani" swiper-animate-effect="flash" swiper-animate-duration="0.8s" swiper-animate-delay="0.8s">
+                </div>
+                <div class="video">
+                    <iframe src="http://player.youku.com/embed/XMTMwODI4MzI0OA==" frameborder=0 allowfullscreen></iframe>
+                </div>
+                <p>点击观看视频</p>
+            </div>
+        </div>
+	</div>
+	<script src="js/jquery-2.1.3.min.js"></script>
+	<script src="js/swiper.min.js"></script>
+    <script src="js/swiper.animate1.0.2.min.js"></script>
+	<script src="js/index.js"></script>
+    <script src="js/canvasloading.js"></script>
+</body>
+</html>

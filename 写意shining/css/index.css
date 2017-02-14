@@ -1,0 +1,149 @@
+ul{
+    margin: 0;
+    padding: 0;
+}
+.art_top{
+    width: 100%;
+    background: #F5F5F5;
+    margin-top: 3px;
+}
+.art_title{
+	margin: 0 auto;
+    max-width: 25em;
+    min-width: 8em;
+    height: 100px;
+}
+.art_title_line{
+	height: 5em;
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+}
+.art_title_line i{
+	display: inline-block;
+    font-size: 1.625em;
+    width: 25%;
+    height: 4em;
+    background: url(../img/line_yellow.png) no-repeat;
+    background-position: center;
+    float: left;
+}
+.art_title_line span{
+	display: inline-block;
+    font-size: 1.625em;
+    height: 4em;
+    width: 50%;
+    line-height: 100%;
+    line-height: 4em;
+    max-height: 4em;
+    float: left;
+    color: #616161;
+    font-family: arial;
+    font-weight: bold;
+}
+.service{
+    width: 80%;
+    margin:0 auto;
+    border-top: 1px solid #bfbfbf;
+}
+.article{
+    background: #F5F5F5;
+    padding-bottom: 15px;
+}
+.service_list{
+    width: 100%;
+    /*min-height: 212px;*/
+    min-height: 20px;
+    border-bottom: 1px solid #bfbfbf;
+    list-style: none;
+    overflow: hidden;
+}
+.service_list li{
+    float: left;
+}
+.list2 li{
+    float: right;
+}
+.list_left{
+    width: 60%;
+}
+.list_img{
+    position: relative;
+}
+.list_left img{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.list_padding{
+    width: 1.2em;
+    height: 100%;
+    background: rgb(176, 176, 176);
+}
+.after_pic{
+    opacity: 0;
+}
+.list_text{
+    color:rgb(176, 176, 176);
+    width: 35%;
+    padding-left: 2%;
+}
+.list_text h6{
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: arial;
+    margin-top: 1em;
+    word-break: break-all;
+}
+.list_text p{
+    text-align: left;
+    font-family: "微软雅黑";
+    font-size: 1em;
+    line-height: 1.5em;
+    padding-top: 0.5em;
+}
+@media screen and (max-width: 930px) {
+    .service{
+        width: 94%;
+    }
+    .service_list li{
+        float: none;
+    }
+    .list_padding{
+        display: none;
+    }
+    .list_left{
+        width: 100%;
+    }
+    .list_text{
+        width: 100%;
+    }
+    .list_text h6{
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 15px;
+    }
+    .list_text p{
+        line-height: 1.2em;
+    }
+}
+@media screen and (max-width: 500px) {
+    .art_title_line i{
+        width: 20%;
+    }
+    .art_title_line span{
+        width: 60%;
+    }
+    .art_title_line i{
+        height:3em;
+    }
+    .art_title_line span{
+        height: 3em;
+        line-height: 3em;
+    }
+    .art_title{
+      height: 80px;
+    }
+}
